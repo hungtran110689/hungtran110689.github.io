@@ -1,0 +1,190 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+h2{
+  text-align:center ;
+}
+h3{
+  text-align: center;
+}
+p, li {
+    text-align: left;
+    font-size: 20px;
+    line-height: 2;
+    color: black;
+    letter-spacing: 1px;
+  }
+
+footer {
+  list-style-type:none;
+    font-size: 30px;
+    line-height: 2;
+    color: white;
+    letter-spacing: 1px;
+}
+button {
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius:3em;
+    background-color:red;
+    padding: 8px 15px;
+  }
+img{
+  
+  height: 40%;
+  width: 30%;
+  
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+#top_div{
+    display:inline-block;
+    background-color: black;
+    height: 20%;
+    width: 100%;
+    margin: 0;
+}  
+
+#mid_div{
+    
+    text-align: left;
+    display:inline-block;
+    background-image: url(/img/the_few_the_proud.png);
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    margin: 0;
+}
+#bottom_div{
+  text-align: center;
+  display:inline-block;
+  background-color:red;
+  height: 25%;
+  width: 100%;
+  margin: 0;
+}  
+ 
+table caption {
+  font-family: cursive;
+	font-size: 2rem;
+	color: #feca57;
+	letter-spacing: 2px;
+  }
+  
+  table {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+	letter-spacing: 1px;
+	margin: 2rem auto;
+	background-color: rgb(231, 190, 142);
+  }
+  
+  thead th {
+	color: #565656;
+	border-bottom: 5px solid #ddd;
+	border-right: 1px solid #ddd;
+  }
+  
+  thead th:last-child {
+	border-right: 0;
+  }
+  
+  tbody th {
+	border-right: 1px solid #ddd;
+  }
+  
+  tbody tr:last-child th {
+	border-bottom: 0;
+  }
+  
+  tbody tr:last-child td {
+	border-bottom: 0;
+  }
+  
+  
+  
+  th {
+	border-bottom: 1px solid rgb(122, 211, 169);
+	font-weight: bold;
+	padding: 1rem;
+  }
+  
+  td {
+	border-bottom: 1px solid #ddd;
+	padding: 1rem;
+  }
+  
+  tbody th {
+	color: #565656;
+	text-align: right;
+  }
+  
+  
+  
+  
+  
+  tbody tr:nth-child(2n + 1) th,
+  tbody tr:nth-child(2n + 1) td {
+	background-color: rgb(135, 219, 205);
+  }
+  
+  tr:nth-child(1) td:nth-of-type(1) {
+	background-color: #f10707;
+	border-bottom: 0;
+  }
+  tr:nth-child(4) td:nth-of-type(1) {
+	background-color: #f10707;
+  }
+  tr:nth-child(1) td:nth-of-type(3) {
+    background-color: #f10707;
+    }
+  tr:nth-child(1) td:nth-of-type(5) {
+    background-color: #f10707;
+    }
+    tr:nth-child(6) td:nth-of-type(1) {
+      background-color: #fbff02;
+      }
+      tr:nth-child(6) td:nth-of-type(3) {
+        background-color: #fbff02;
+        }tr:nth-child(6) td:nth-of-type(5) {
+          background-color: #fbff02;
+
+          }
+          tr:nth-child(7) td:nth-of-type(3) {
+            background-color: #fbff02;
+
+            }
+     tr:nth-child(5) td:nth-of-type(2) {
+      background-color: #02ff02;
+      }
+      tr:nth-child(6) td:nth-of-type(2) {
+        background-color: #02ff02;
+        }tr:nth-child(5) td:nth-of-type(4) {
+          background-color: #02ff02;
+
+          }
+          tr:nth-child(6) td:nth-of-type(4) {
+            background-color: #02ff02;
+
+            }
+            tr:nth-child(8) td:nth-of-type(5) {
+              background-color: #02ff02;
+  
+              }

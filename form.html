@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSE135-Hw1</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hung Tran">
+    <link rel="stylesheet" href="styles/main.css" >
+  </head>
+  <body>
+    <nav>
+      
+    </nav>
+    <div id = "top_div">
+        <h1>Form</h1>
+        
+      <a href="index.html">Index</a> |
+      <a href="images.html">Images</a> |
+      <a href="form.html">Form</a> |
+      <a href="table_and_lists.html">Table and Lists</a> |
+      <a href="externals.html">Externals</a>
+
+	</div>
+
+    <div id="contact-form">	
+            <form id="contact" method="post" action="http://httpbin.org/post">
+                <ul>
+                    <li>
+                        <fieldset>
+                           <legend>If you have to read a book which one would you pick?</legend>
+                            
+                                <input type="radio" id="Fiction" name="book_type">
+                                <label for="kraken">Fiction</label><br/>
+                            
+                                <input type="radio" id="Non-Fiction" name="book_type">
+                                <label for="sasquatch">Non-Fiction</label><br/>
+
+                         </fieldset>
+                    </li>
+                        <li>
+                                <label for="Horror?">Do you like Horror Movies?</label>
+                                <input type="checkbox">
+                                <li>
+                                <label for="Ghost?">Do you believe in the existance of Ghost/Devil?</label>
+                                <input type="checkbox">
+                                </li>
+        
+                            <li>
+                                    <label for="movie_choice">What type of movies do you like?</label>
+                                    <input list="Movie_types">
+                                    
+                                    <datalist id="Movie_types">
+                                        <option value="Action"></option>
+                                        <option value="Comedy"></option>
+                                        <option value="Sci-Fi"></option>
+                                        <option value="Violent"></option>
+                                        <option value="Scary"></option>
+                                        <option value="Documentary"></option>
+                                        <option value="Romantic"></option>
+
+                                    </datalist>  
+                            </li>
+                       
+                        <li >
+                                <label for="cse_class?">Which CSE Class you hate the most?:</label>
+                                <select id="cse_class?">
+                                    <optgroup label="Coding">
+                                        <option>CSE 8A/B</option>
+                                        <option>CSE 12</option>
+                                        <option>CSE 30</option>
+                                        <option>CSE 100</option>
+                                    </optgroup>
+                                    <optgroup label="Theories">
+                                        <option>CSE 20/21</option>
+                                        <option>CSE 101</option>
+                                        <option>CSE 105</option>
+                                    </optgroup>
+                                </select>
+                        </li>
+                        <li>
+                                <label for="quarter">UCSD Winter Quarter 2020</label>
+
+                                <meter id="quarter" min="0" max="10" value="3"> </meter>
+                        </li>
+                        
+                        <li>
+                                <label for="HW1">Home Work</label>
+
+                                <progress id="HW1" max="100" value="60">60% </progress>
+                                
+                        </li>
+                        <li>
+                            <label for="gender">What is your gender?</label>
+
+                            <select id="gender">
+                                <option value="">--Please choose an option--</option>
+                                <option value="Male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                                <option value="I_dont_know">I don't know </option>
+                                <option value="later">That's a long story</option>
+                            </select>
+                            
+                    </li>
+                    <li>
+                        <input type="text" name="name" id="name_holder" placeholder="Name">
+                        <input type="text" name="email" id="email_holder" placeholder="E-mail">
+                    </li>
+                    
+                        <textarea name="message" id="message_holder" rows="20" cols="50"></textarea>
+                    
+                </ul>
+
+                <button type="submit" class="button">Contact Us</button>
+                <input type="hidden" name="submitted" id="submit_button" value="true">
+            </form>
+            
+        </div>
+    
+
+
+
+
+</div>
+</div>
+
+</body>
+</html>
